@@ -8,7 +8,7 @@ if(empty($_SESSION['result'])){
 $_SESSION['result'] = array();
 }
 ####XML VARIABLES####	
-$url = 'http://sandbox.api.ebaycommercenetwork.com/publisher/3.0/rest/GeneralSearch?apiKey=78b0db8a-0ee1-4939-a2f9-d3cd95ec0fcc&trackingId=7000610&keyword=';
+$url = 'http://sandbox.api.ebaycommercenetwork.com/publisher/3.0/rest/GeneralSearch?apiKey=enterYourAPIkeyHere&keyword=';
 $input = urlencode($_GET['search']);
 $xmlstr = file_get_contents($url.$input);
 $xml = new SimpleXMLElement($xmlstr);
