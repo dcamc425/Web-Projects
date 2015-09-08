@@ -1,2 +1,2 @@
 # Web-Projects
-A sample of web projects developed
+A sample of web projects developed.
