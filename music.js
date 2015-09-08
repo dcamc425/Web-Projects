@@ -1,5 +1,5 @@
 // Put your Last.fm API key here
-var api_key = "255767593306b2906ae13efd31d6b58b";
+var api_key = "LASTFMAPIKEYGOESHERE";
 
 var infoRequest = new XMLHttpRequest();
 var albumRequest = new XMLHttpRequest();
