@@ -1,5 +1,5 @@
 // Put your zillow.com API key here
-var zwsid = "X1-ZWz1dnd2n7iz2j_5p30l";
+var zwsid = "ZILLOWAPIKEYGOESHERE";
 
 var request = new XMLHttpRequest();
 var marker,map,position,lat,lng,latlng,geocoder,locationAddress,infoWindowContent,markerInfo;
